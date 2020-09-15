@@ -13,8 +13,7 @@ Commit: As your changes are ready to be committed, select the corresponding file
 Fetch: If you have several projects roots or want to fetch changes from all branches each time you sync with the remote repository, you may find updating your project a more convenient option. When you perform the update operation, WebStorm fetches changes from all project roots and branches, and merges the tracked remote branches into your local working copy (equivalent to pull).
 1.	From the main menu, choose VCS | Update Project or press Ctrl+T. The Update Project dialog opens.
 2.	Select the update type (this strategy will be applied to all roots that are under Git version control):
--Merge the incoming changes into the current branch: select this option to perform merge during the update. This is equivalent to running git fetch and then git merge, or git pull --no-rebase.
-- Rebase the current branch on top of the incoming changes: select this option to perform rebase during the update. This is equivalent to running git fetch and then git rebase, or git pull --rebase (all local commits will be put on top of the updated upstream head).
+-Merge the incoming changes into the current branch: select this option to perform merge during the update. This is equivalent to running git fetch and then git merge, or git pull --no-rebase. Rebase the current branch on top of the incoming changes: select this option to perform rebase during the update. This is equivalent to running git fetch and then git rebase, or git pull --rebase (all local commits will be put on top of the updated upstream head).
 
 •	GIT: Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, but it can be used to track changes in any set of files.
 
